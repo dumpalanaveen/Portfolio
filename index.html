@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dumpala Naveen — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-brand">DN<span class="dot">.</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home" class="nav-link active">Home</a></li>
+    <li><a href="#about" class="nav-link">About</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== HOME ===== -->
+<section class="section hero-section" id="home">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+
+  <div class="hero-content">
+    <div class="hero-text" data-animate>
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Dumpala<br><span class="accent-text">Naveen</span></h1>
+      <div class="hero-roles">
+        <span class="role-item active-role">Data Analyst</span>
+        <span class="role-sep">·</span>
+        <span class="role-item">ML Engineer</span>
+        <span class="role-sep">·</span>
+        <span class="role-item">CSE Student</span>
+      </div>
+      <p class="hero-desc">Building data-driven solutions that transform raw insights into actionable intelligence. Currently pursuing B.Tech at Lovely Professional University.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/dumpalanaveen/" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/dumpalanaveen" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:dumpalanaveen05@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- ROUND PROFILE IMAGE WITH ORANGE BACKGROUND -->
+    <div class="hero-image-wrap" data-animate>
+      <div class="profile-circle-outer">
+        <div class="profile-circle-inner">
+          <img src="naveen.jpeg" alt="Dumpala Naveen" class="profile-img"/>
+        </div>
+      </div>
+      <div class="hero-badge badge-top">
+        <i class="fas fa-chart-line"></i>
+        <span>Data Analytics</span>
+      </div>
+      <div class="hero-badge badge-bottom">
+        <i class="fas fa-brain"></i>
+        <span>Machine Learning</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section about-section" id="about">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <span class="section-tag">About Me</span>
+      <h2 class="section-title">Passionate about<br><span class="accent-text">Data & Technology</span></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-info" data-animate>
+        <p class="about-lead">I'm a Computer Science & Engineering student at Lovely Professional University with a deep passion for turning complex data into meaningful stories.</p>
+        <p class="about-body">With hands-on experience in data analytics, machine learning, and visualization tools like Power BI and Tableau, I build systems that help organizations make smarter decisions. I believe that the best insights come from combining technical rigor with clear communication.</p>
+        <div class="about-details-grid">
+          <div class="detail-item">
+            <span class="detail-label">University</span>
+            <span class="detail-value">LPU, Punjab</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Degree</span>
+            <span class="detail-value">B.Tech CSE</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Batch</span>
+            <span class="detail-value">2023 – 2027</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Location</span>
+            <span class="detail-value">Telangana, India</span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Email</span>
+            <span class="detail-value"><a href="mailto:dumpalanaveen05@gmail.com">dumpalanaveen05@gmail.com</a></span>
+          </div>
+          <div class="detail-item">
+            <span class="detail-label">Phone</span>
+            <span class="detail-value">+91-9515367375</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-stats" data-animate>
+        <div class="stat-card">
+          <div class="stat-number">3<span>+</span></div>
+          <div class="stat-label">Certifications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">4<span>+</span></div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1<span>+</span></div>
+          <div class="stat-label">Internships</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">10<span>+</span></div>
+          <div class="stat-label">Tech Skills</div>
+        </div>
+
+        <div class="edu-timeline">
+          <h3 class="timeline-heading">Education</h3>
+          <div class="timeline-item">
+            <div class="tl-year">2023–2027</div>
+            <div class="tl-info">
+              <div class="tl-title">B.Tech — CSE</div>
+              <div class="tl-place">Lovely Professional University</div>
+              <div class="tl-score">CGPA: 7.54</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">2021–2023</div>
+            <div class="tl-info">
+              <div class="tl-title">12th — Science</div>
+              <div class="tl-place">Jawahar Navodaya Vidyalaya</div>
+              <div class="tl-score">73%</div>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">2020–2021</div>
+            <div class="tl-info">
+              <div class="tl-title">10th — Science</div>
+              <div class="tl-place">Jawahar Navodaya Vidyalaya</div>
+              <div class="tl-score">CGPA: 8.5</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="section experience-section" id="experience">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <span class="section-tag">Experience</span>
+      <h2 class="section-title">Where I've <span class="accent-text">Worked</span></h2>
+    </div>
+    <div class="exp-card" data-animate>
+      <div class="exp-left">
+        <div class="exp-logo">
+          <i class="fas fa-building-columns"></i>
+        </div>
+        <div class="exp-connector"></div>
+      </div>
+      <div class="exp-body">
+        <div class="exp-header">
+          <div>
+            <h3 class="exp-role">Data Analytics Intern</h3>
+            <p class="exp-company">Deloitte</p>
+          </div>
+          <span class="exp-date">Dec 2025</span>
+        </div>
+        <ul class="exp-bullets">
+          <li>Analyzed real-world client case studies aligned with audit, risk, and consulting engagements, applying structured data-analysis methodologies.</li>
+          <li>Performed exploratory data analysis (EDA) on large structured datasets to identify business trends, anomalies, and risk indicators using Excel and analytical techniques.</li>
+          <li>Cleaned and transformed raw data to improve accuracy and usability, ensuring the integrity of insights.</li>
+          <li>Built dashboards and visual analytics to clearly communicate findings, supporting client-focused storytelling and executive-level presentation of insights.</li>
+          <li>Applied problem-solving and critical-reasoning skills to convert data outputs into actionable recommendations for business stakeholders.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="tag">EDA</span>
+          <span class="tag">Excel</span>
+          <span class="tag">Data Cleaning</span>
+          <span class="tag">Dashboards</span>
+          <span class="tag">Analytics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section projects-section" id="projects">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <span class="section-tag">Projects</span>
+      <h2 class="section-title">Things I've <span class="accent-text">Built</span></h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card" data-animate>
+        <div class="proj-header">
+          <div class="proj-icon"><i class="fas fa-film"></i></div>
+          <div class="proj-links">
+            <a href="https://github.com/dumpalanaveen/Documentary-finder" target="_blank" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3 class="proj-title">Documentary Finder</h3>
+        <p class="proj-desc">An intelligent platform to discover, search, and explore documentaries across genres. Features smart filtering, ratings, and curated recommendations for documentary enthusiasts.</p>
+        <div class="proj-tech">
+          <span>Python</span><span>JavaScript</span><span>API</span><span>Search</span>
+        </div>
+      </div>
+
+      <div class="project-card featured" data-animate>
+        <div class="proj-header">
+          <div class="proj-icon"><i class="fas fa-microphone-alt"></i></div>
+          <div class="proj-links">
+            <a href="https://github.com/dumpalanaveen/Voice-git-assistant" target="_blank" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="feat-badge">Featured</div>
+        <h3 class="proj-title">Voice Git Assistant</h3>
+        <p class="proj-desc">A voice-powered assistant that lets developers manage GitHub repositories, create issues, and perform Git operations entirely through speech commands — hands-free coding workflow.</p>
+        <div class="proj-tech">
+          <span>Python</span><span>Speech Recognition</span><span>GitHub API</span><span>NLP</span>
+        </div>
+      </div>
+
+      <div class="project-card" data-animate>
+        <div class="proj-header">
+          <div class="proj-icon"><i class="fas fa-recycle"></i></div>
+          <div class="proj-links">
+            <a href="https://github.com/dumpalanaveen/UniCycle" target="_blank" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3 class="proj-title">UniCycle</h3>
+        <p class="proj-desc">A sustainability-focused platform designed for university communities to facilitate recycling, waste reduction, and circular economy practices among students and faculty.</p>
+        <div class="proj-tech">
+          <span>JavaScript</span><span>HTML/CSS</span><span>Node.js</span><span>Sustainability</span>
+        </div>
+      </div>
+
+      <div class="project-card featured" data-animate>
+        <div class="proj-header">
+          <div class="proj-icon"><i class="fas fa-globe"></i></div>
+          <div class="proj-links">
+            <a href="https://github.com/dumpalanaveen/-Global-Ai-Job-Market-Analysis-Dashboard-" target="_blank" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="feat-badge">Featured</div>
+        <h3 class="proj-title">Global AI Job Market Dashboard</h3>
+        <p class="proj-desc">An interactive Power BI dashboard analyzing global AI job trends across regions, job titles, salaries, experience levels, and remote work distribution — empowering career decisions.</p>
+        <div class="proj-tech">
+          <span>Power BI</span><span>Python</span><span>SQL</span><span>Excel</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="section skills-section" id="skills">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <span class="section-tag">Skills</span>
+      <h2 class="section-title">My <span class="accent-text">Toolkit</span></h2>
+    </div>
+    <div class="skills-layout">
+      <div class="skill-group" data-animate>
+        <div class="skill-group-header">
+          <i class="fas fa-code"></i>
+          <h3>Languages</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+          <span class="skill-pill"><i class="fas fa-database"></i> SQL</span>
+          <span class="skill-pill">R</span>
+          <span class="skill-pill"><i class="fab fa-js"></i> JavaScript</span>
+          <span class="skill-pill">C++</span>
+        </div>
+      </div>
+
+      <div class="skill-group" data-animate>
+        <div class="skill-group-header">
+          <i class="fas fa-layer-group"></i>
+          <h3>Frameworks & Tools</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">Pandas</span>
+          <span class="skill-pill">NumPy</span>
+          <span class="skill-pill">Matplotlib</span>
+          <span class="skill-pill">Seaborn</span>
+          <span class="skill-pill">Scikit-learn</span>
+          <span class="skill-pill">Power BI</span>
+          <span class="skill-pill">Tableau</span>
+          <span class="skill-pill">Excel</span>
+          <span class="skill-pill"><i class="fab fa-git-alt"></i> Git</span>
+          <span class="skill-pill"><i class="fab fa-github"></i> GitHub</span>
+        </div>
+      </div>
+
+      <div class="skill-group" data-animate>
+        <div class="skill-group-header">
+          <i class="fas fa-brain"></i>
+          <h3>Core Competencies</h3>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill highlight">Machine Learning</span>
+          <span class="skill-pill highlight">EDA</span>
+          <span class="skill-pill highlight">Data Cleaning</span>
+          <span class="skill-pill highlight">Visualization</span>
+          <span class="skill-pill highlight">Statistics</span>
+          <span class="skill-pill highlight">Predictive Modeling</span>
+          <span class="skill-pill highlight">DSA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills-bars" data-animate>
+      <div class="bar-item">
+        <div class="bar-header"><span>Python & Data Analysis</span><span>85%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span>SQL & Databases</span><span>80%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span>Power BI / Tableau</span><span>78%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="78"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span>Machine Learning</span><span>72%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="72"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-header"><span>JavaScript</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" data-width="65"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section class="section cert-section" id="certifications">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <span class="section-tag">Certifications</span>
+      <h2 class="section-title">Credentials &amp; <span class="accent-text">Achievements</span></h2>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card" data-animate>
+        <div class="cert-icon"><i class="fab fa-microsoft"></i></div>
+        <div class="cert-body">
+          <h3 class="cert-title">Career Essentials in Data Analysis</h3>
+          <p class="cert-issuer">Microsoft</p>
+          <p class="cert-date"><i class="fas fa-calendar-alt"></i> Nov 2025</p>
+        </div>
+        <a href="https://drive.google.com/file/d/1BiELkhSAvYYFpm2JpQMMRGn6mj4r2qzN/view" target="_blank" class="cert-btn">
+          View Certificate <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="cert-card" data-animate>
+        <div class="cert-icon cert-icon-2"><i class="fas fa-graduation-cap"></i></div>
+        <div class="cert-body">
+          <h3 class="cert-title">Fundamentals of Network Communication</h3>
+          <p class="cert-issuer">University of Colorado</p>
+          <p class="cert-date"><i class="fas fa-calendar-alt"></i> Sep 2024</p>
+        </div>
+        <a href="https://drive.google.com/file/d/1HNQTdrTwkxo4yEYOU1Nf7Lo7Rq79DKte/view" target="_blank" class="cert-btn">
+          View Certificate <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+
+      <div class="cert-card" data-animate>
+        <div class="cert-icon cert-icon-3"><i class="fab fa-python"></i></div>
+        <div class="cert-body">
+          <h3 class="cert-title">Python for Beginners</h3>
+          <p class="cert-issuer">Simplilearn SkillUp</p>
+          <p class="cert-date"><i class="fas fa-calendar-alt"></i> Feb 2024</p>
+        </div>
+        <a href="https://drive.google.com/file/d/14fSe4d1sDkeE1IcA1sdoei4wl-UuXFJ4/view" target="_blank" class="cert-btn">
+          View Certificate <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-header" data-animate>
+      <span class="section-tag">Contact</span>
+      <h2 class="section-title">Let's <span class="accent-text">Connect</span></h2>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-info" data-animate>
+        <p class="contact-lead">I'm open to internship opportunities, collaborations, and interesting data projects. Don't hesitate to reach out!</p>
+        <div class="contact-items">
+          <a href="mailto:dumpalanaveen05@gmail.com" class="contact-item">
+            <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">Email</span>
+              <span class="ci-val">dumpalanaveen05@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919515367375" class="contact-item">
+            <div class="ci-icon"><i class="fas fa-phone"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">Phone</span>
+              <span class="ci-val">+91-9515367375</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/dumpalanaveen/" target="_blank" class="contact-item">
+            <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">LinkedIn</span>
+              <span class="ci-val">linkedin.com/in/dumpalanaveen</span>
+            </div>
+          </a>
+          <a href="https://github.com/dumpalanaveen" target="_blank" class="contact-item">
+            <div class="ci-icon"><i class="fab fa-github"></i></div>
+            <div class="ci-text">
+              <span class="ci-label">GitHub</span>
+              <span class="ci-val">github.com/dumpalanaveen</span>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" data-animate onsubmit="handleFormSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" placeholder="John Doe" required/>
+          </div>
+          <div class="form-group">
+            <label for="femail">Your Email</label>
+            <input type="email" id="femail" placeholder="john@email.com" required/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fsubject">Subject</label>
+          <input type="text" id="fsubject" placeholder="What's this about?" required/>
+        </div>
+        <div class="form-group">
+          <label for="fmessage">Message</label>
+          <textarea id="fmessage" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <span class="btn-text">Send Message</span>
+          <i class="fas fa-paper-plane"></i>
+        </button>
+        <div class="form-success" id="formSuccess">
+          <i class="fas fa-check-circle"></i>
+          <span>Message sent! I'll get back to you soon.</span>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">DN<span class="dot">.</span></div>
+    <p class="footer-text">Designed &amp; Built by <strong>Dumpala Naveen</strong></p>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com/in/dumpalanaveen/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/dumpalanaveen" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="mailto:dumpalanaveen05@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== BACK TO TOP ===== -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="main.js"></script>
+</body>
+</html>
